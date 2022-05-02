@@ -93,4 +93,10 @@ Se você rodar o projeto e testar um domínio, verá que ele já está funcionan
 
 # Modificações:
 
-- DESCREVA AQUI O OBJETIVO DAS MODIFICAÇÕES...
+- O projeto foi dividido em 4 partes (Api, Dominio, repositorio e Web) para facilitar na manutenção do código e tambem na leitura.
+- na parte Web foi criado um projeto react responsável pela interface.
+- o repositorio ficou responsável pela iteração com o db.
+- o projeto dominio está toda a regra da aplicação.
+- a api ficou com a parte de configuração do projeto, as migrations e os controllers.
+
+Obs: Para rodar o projeto por linha de comando vá até a pasta src/Desafio.Umbler.Api e execute dotnet run, em outro terminal vá ate a pasta src/Desafio.Umbler.Web e execute npm install && npm start. Para rodar com o VS 2022 configure a solution para iniciar o projeto Desafio.Umbler.Api e Desafio.Umbler.Web
